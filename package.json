@@ -4,21 +4,23 @@
     "packages/*",
     "packages/@vue/*"
   ],
-  "scripts": {
-    "pre-commit": "lint-staged"
-  },
+  "scripts": {},
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-vue": "^8.5.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
-    "lint-staged": "^12.3.5"
+    "lerna-changelog": "^2.2.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.5.1"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint --fix",

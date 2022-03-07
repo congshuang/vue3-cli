@@ -5,5 +5,17 @@
     "packages/*",
     "packages/@vue3/cli*"
   ],
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "changelog": {
+    "repo": "congshuang/vue3-cli",
+    "labels": {
+      "PR: New Feature": ":rocket: New Features",
+      "PR: Breaking Change": ":boom: Breaking Changes",
+      "PR: Bug Fix": ":bug: Bug Fix",
+      "PR: Documentation": ":memo: Documentation",
+      "PR: Internal": ":house: Internal",
+      "PR: Underlying Tools": ":hammer: Underlying Tools"
+    },
+    "cacheDir": ".changelog"
+  }
 }
